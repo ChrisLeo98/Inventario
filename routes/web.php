@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Christopher 
+// Christopher
+// Intento de segundo commit 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
